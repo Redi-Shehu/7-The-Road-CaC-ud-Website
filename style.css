@@ -1,2 +1,50 @@
 /* font-family: "Vollkorn", serif; */
 /* font-weight: 400 - 900 */
+
+/* reset and global styles */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #2b81e4;
+  --secondary-color: #eee;
+  --white-color: #fff;
+  --grey-color: #555;
+  --light-grey-color: #777;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Vollkorn", serif;
+}
+a,
+input[type="submit"],
+button {
+  cursor: pointer;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea,
+fieldset {
+  font-family: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+/* global classes */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
