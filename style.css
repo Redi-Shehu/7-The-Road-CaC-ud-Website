@@ -462,3 +462,34 @@ textarea {
 .form-btn:hover {
   background-color: var(--grey-color);
 }
+
+/* -----------Footer----------- */
+.footer {
+  width: 100%;
+  background-color: var(--grey-color);
+  padding: 4rem 0 2rem 0;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer-links-link {
+  font-size: 2rem;
+  color: var(--white-color);
+  background-color: var(--grey-color);
+  padding: 0.3rem 3rem;
+  letter-spacing: 0.3rem;
+  transition: all 0.2s;
+}
+.footer-links-link:hover {
+  transform: rotate(-10deg);
+  box-shadow: 0 2rem 3rem #000;
+}
+.copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.2rem;
+  margin-top: 5rem;
+}
